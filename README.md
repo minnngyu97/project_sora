@@ -12,3 +12,6 @@
 <span style="font-size: 36px;"><strong>깃허브</strong></span> : https://github.com/minnngyu97/project_sora<br>
 <span style="font-size: 36px;"><strong>참고 사이트</strong></span> : https://abijouclinic.com/<br>
 <span style="font-size: 36px;"><strong>참고 컬러 팔레트</strong></span> : https://coolors.co/palette/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6
+
+# 3. SEO 최적화
+<img width="1122" height="602" alt="image" src="https://github.com/user-attachments/assets/42021951-612f-4739-ad11-8414e77f6327" />
