@@ -2,6 +2,10 @@ body * {
   font-family: "pretendard", "Apple SD Gothic Neo", sans-serif;
 }
 
+#main {
+  margin-top: 96px;
+}
+
 .sc-slide {
   width: 100%;
 }

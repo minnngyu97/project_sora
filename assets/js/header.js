@@ -24,3 +24,18 @@
 //     })
 
 // })
+
+// let lastScroll = 0;
+
+// window.addEventListener('scroll', function () {
+//     const curr = window.scrollY;
+//     const header = document.querySelector('header');
+
+//     if (curr > lastScroll) {
+//         header.classList.add('hide');
+//     } else {
+//         header.classList.remove('hide');
+//     }
+
+//     lastScroll = curr;
+// });
