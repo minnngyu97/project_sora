@@ -5,7 +5,7 @@
 
 .wrap {}
 
-#header {
+/* #header {
     position: fixed;
     top: 0;
     left: 0;
@@ -142,4 +142,4 @@ header.hide {
 }
 .site-btn svg.rotated {
     transform: rotate(180deg);
-}
+} */
