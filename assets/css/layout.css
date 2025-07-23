@@ -5,6 +5,16 @@
 
 .wrap {}
 
+.header-group {
+    padding: 50px;
+}
+
+.header-group .header-nav {
+    padding: 15px 45px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 40px 0px #08464E14;
+}
+
 /* #header {
     position: fixed;
     top: 0;

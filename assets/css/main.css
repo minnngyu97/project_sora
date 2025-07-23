@@ -1,32 +1,29 @@
+body * {
+  font-family: "pretendard", "Apple SD Gothic Neo", sans-serif;
+}
+
 .sc-slide {
-}
-
-/* .slide1 {
-    height: 500px;
-}
-.slide1 .swiper-slide {
-  background: #ccc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 100px;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-} */
-
-.slide1 {
-  height: auto;
-}
-
-.swiper-slide img {
   width: 100%;
-  height: auto;
+}
+
+.slide1 .swiper-slide {
+  position: relative;
+  width: 100%;
+}
+
+.slide1 .swiper-slide a {
+  display: block;
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.slide1 .swiper-slide img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  aspect-ratio: 16 / 6;
+  max-height: 600px;
   display: block;
 }
 
@@ -39,7 +36,6 @@
   width: 8px;
   height: 8px;
   font: 0/0 a;
-  background-color: hsla(0, 0%, 100%, 0.5);
   transition: width 0.3s ease-in-out;
 }
 .sc-slide .swiper-pagination-bullet-active {
@@ -54,7 +50,7 @@
 }
 
 .nav-link {
-  color: #808080 !important;
+  color: #808080 ;
   transition: color 0.2s ease;
 }
 .nav-link:hover,
@@ -85,6 +81,8 @@
 .nav-link.dropdown-toggle::after {
   display: none;
 }
+
+.nav-item 
 /* mingyu */
 /*기본 레이아웃*/
 .h-150 {
