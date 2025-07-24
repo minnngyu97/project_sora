@@ -47,47 +47,6 @@ body * {
   background-color: #fff;
 }
 
-/* mingyu */
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-}
-
-.nav-link {
-  color: #808080 ;
-  transition: color 0.2s ease;
-}
-.nav-link:hover,
-.dropdown:hover > .nav-link {
-  color: #1cbccf;
-}
-
-.dropdown-menu a:hover {
-  color: #1cbccf;
-  background-color: #f8f9fa;
-}
-
-.sub-nav-list img {
-  width: 24px;
-  height: 24px;
-}
-
-.sub-nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.sub-nav-item {
-  display: inline-block;
-  margin-left: 10px;
-}
-.nav-link.dropdown-toggle::after {
-  display: none;
-}
-
-.nav-item 
-/* mingyu */
 /*기본 레이아웃*/
 .h-150 {
   height: 150px;

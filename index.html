@@ -137,60 +137,46 @@
           </h1>
 
           <nav class="header-nav">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
+            <ul class="nav align-items-center">
+              <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button">About Us</a>
-                <ul class="dropdown-menu shadow-sm rounded-3">
-                  <li>
-                    <a class="dropdown-item" href="#">Brand Story / Philosophy</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Contact / Time / Map</a>
-                  </li>
-                </ul>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="#" role="button">About Us</a></li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button">Doctors / Experts</a>
-                <ul class="dropdown-menu shadow-sm rounded-3">
-                  <li><a class="dropdown-item" href="#">Profiles</a></li>
-                </ul>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="#" role="button">Doctors</a></li>
 
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown-center position-relative">
                 <a class="nav-link dropdown-toggle" href="#" role="button">Treatments</a>
-                <ul class="dropdown-menu shadow-sm rounded-3">
+                <ul class="depth2 dropdown-menu">
                   <li><a class="dropdown-item" href="#">Skin Care</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Lifting / Anti-Aging</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#">Lifting / Anti-Aging</a></li>
                   <li><a class="dropdown-item" href="#">Laser</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Injection (Filler / Botox)</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#">Injection (Filler / Botox)</a></li>
                   <li><a class="dropdown-item" href="#">Body</a></li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown-center position-relative">
                 <a class="nav-link dropdown-toggle" href="#" role="button">Event</a>
-                <ul class="dropdown-menu shadow-sm rounded-3">
-                  <li>
-                    <a class="dropdown-item" href="#">Event Landing Page</a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </nav>
 
           <div class="d-flex align-items-center gap-3">
-            <button class="btn border border-info text-info rounded-pill px-4 py-2 fw-medium">
+            <button class="btn btn-info-custom border border-info text-info rounded-pill px-4 py-2 fw-medium">
               BOOK NOW
             </button>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle custom-lang-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/images/solar_global-linear.png" alt="언어변경아이콘" style="width: 24px; height: 24px;">
+                <span class="lang-text">en</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ko</a></li>
+                <li><a class="dropdown-item" href="#">en</a></li>
+                <li><a class="dropdown-item" href="#">ja</a></li>
+                <li><a class="dropdown-item" href="#">ch</a></li>
+              </ul>
+            </div>
             <ul class="sub-nav-list d-flex align-items-center">
               <li class="sub-nav-item">
                 <a href="https://www.instagram.com/" target="_blank">
@@ -217,17 +203,17 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <a href="">
-                  <img src="./assets/images/event1.png" alt="메인이벤트배너" />
+                  <img src="./assets/images/main-banner1.png" alt="메인이벤트배너" />
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="">
-                  <img src="./assets/images/event2.png" alt="메인이벤트배너"/>
+                  <img src="./assets/images/main-banner2.png" alt="메인이벤트배너"/>
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="">
-                  <img src="./assets/images/event3.png" alt="메인이벤트배너"/>
+                  <img src="./assets/images/main-banner3.png" alt="메인이벤트배너"/>
                 </a>
               </div>
             </div>
@@ -277,6 +263,16 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <div class="quickmenu">
+      <div class="quickmenu-group">
+        <ul>
+          <li><a href="#"><img src="./assets/images/line.svg" alt="라인아이콘"></a></li>
+          <li><a href="#"><img src="./assets/images/kakaotalk.svg" alt="카카오톡아이콘"></a></li>
+          <li><a href="#"><img src="" alt=""></a></li>
+        </ul>
+      </div>
     </div>
 
     <!-- Bootstrap 5 JS CDN (Popper 포함) -->
