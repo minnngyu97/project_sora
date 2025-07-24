@@ -1,9 +1,12 @@
 @import './reset.css';
 @import './common.css';
 
-
-
-.wrap {}
+html { 
+    word-break: keep-all;
+    -ms-scroll-chaining: none;
+    overscroll-behavior: none;
+    letter-spacing: -.02em;
+  }
 
 #header {
     top: 0;
@@ -42,3 +45,14 @@ header.hide {
     content: none;
 }
 
+/*기본 레이아웃*/
+.h150 {
+    height: 150px;
+  }
+.event-price {
+    color: #2ec4b6;
+    padding: 0 10px;
+  }
+.bg-main{
+    background-color: #2EC4B6;
+}

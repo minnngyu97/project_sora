@@ -1,6 +1,4 @@
-body * {
-  font-family: "pretendard", "Apple SD Gothic Neo", sans-serif;
-}
+
 
 #main {
   margin-top: 96px;
@@ -88,21 +86,10 @@ body * {
 
 .nav-item 
 /* mingyu */
-/*기본 레이아웃*/
-.h-150 {
-  height: 150px;
-}
-.h-200 {
-  height: 200px;
-}
-.aqua {
-  color: #2ec4b6;
-}
+
 .card-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 16px;
-  color: #2ec4b6;
+  font-size: 42px;
+  font-weight: 500;
 }
 
 /*main card 배너 롤오버*/
