@@ -16,3 +16,6 @@
 
 # 3. SEO 최적화
 <img width="1122" height="602" alt="image" src="https://github.com/user-attachments/assets/42021951-612f-4739-ad11-8414e77f6327" />
+
+# 4. 상단 메뉴 및 메인 화면 레이아웃 설정 
+<span style="font-size: 36px;"><strong>참고 피그마 페이지</strong></span> : https://www.figma.com/design/rWGRBWcqvkuVFnjPYwnc7K/Project_sora?node-id=32-107&t=j2ttoXSETboUlIJT-1
